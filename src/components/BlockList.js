@@ -73,11 +73,11 @@ function BlockList(){
             />
             <div className = "refs">
                 <h1 className = "ref-title">References</h1>
-                    <a href="https://www.noisyvision.org/2011/04/26/non-sono-cieco-sono-ipovedente-per-quanto-tempo-potr%C3%B2-ancora-vedere/" target="__blank">https://www.noisyvision.org/2011/04/26/non-sono-cieco-sono-ipovedente-per-quanto-tempo-potr%C3%B2-ancora-vedere/</a>
-                    <br/><a href="https://www.reliablesoft.net/alt-text/" target="__blank">https://www.reliablesoft.net/alt-text/</a>
-                    <br/><a href="https://www.searchenginejournal.com/most-people-still-in-2020-arent-aware-facebook-owns-instagram/352758/" target="__blank">https://www.searchenginejournal.com/most-people-still-in-2020-arent-aware-facebook-owns-instagram/352758/</a>
-                    <br/><a href="https://thrivingschools.kaiserpermanente.org/how-to-talk-to-teens-about-drugs-and-alcohol/" target="__blank">https://thrivingschools.kaiserpermanente.org/how-to-talk-to-teens-about-drugs-and-alcohol/</a>
-                    <br/><a href="https://moz.com/learn/seo/alt-text" target="__blank">https://moz.com/learn/seo/alt-text</a><br/><br/>
+                    <a href="https://www.noisyvision.org/2011/04/26/non-sono-cieco-sono-ipovedente-per-quanto-tempo-potr%C3%B2-ancora-vedere/" target="__blank">I’m not blind. I am VISUALLY IMPAIRED.</a>
+                    <br/><a href="https://www.reliablesoft.net/alt-text/" target="__blank">Alt Text for Images</a>
+                    <br/><a href="https://www.searchenginejournal.com/most-people-still-in-2020-arent-aware-facebook-owns-instagram/352758/" target="__blank">Most People Still, in 2020, Aren’t Aware Facebook Owns Instagram</a>
+                    <br/><a href="https://thrivingschools.kaiserpermanente.org/how-to-talk-to-teens-about-drugs-and-alcohol/" target="__blank">How to Talk to Teens About Drugs and Alcohol</a>
+                    <br/><a href="https://moz.com/learn/seo/alt-text" target="__blank">SEO: Alt Text</a><br/><br/>
             </div>
         </div>
     );
