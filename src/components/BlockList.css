@@ -1,11 +1,11 @@
-.image{
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
 }
 
-.header2{
+.header2 {
     text-align: center;
     text-decoration: solid;
     font-size: 3vw;
@@ -14,10 +14,26 @@
     padding: 15px;
 }
 
-.paragraph{
+.paragraph {
     display: flex;
     text-align: center;
     padding: 30px;
     margin: 20px;
-    font-size: 1vw;
+    font-size: 1rem;
+}
+
+.how-to {
+    display: flex;
+    justify-content: center;
+}
+
+.how-to img {
+    max-height: 40rem;
+    max-width: 40vw;
+    margin: 1rem;
+}
+
+.refs {
+    margin: auto;
+    text-align: center;
 }

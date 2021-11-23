@@ -4,21 +4,23 @@ import image2 from '../images/why-alt-text.jpeg';
 import image3 from '../images/how-to-write-alt-text.jpeg';
 import image4 from '../images/how-to-add-alt-text.jpeg';
 import image5 from '../images/moving-forward.jpeg';
+import image6 from '../images/advanced-settings.jpg';
+import image7 from '../images/write-alt-text.jpg';
 import './BlockList.css';
 
 function Block(props){
     return(
         <div>
-            <div><h2 class = "header2">{props.title}</h2></div>
+            <div><h2 className = "header2">{props.title}</h2></div>
             <div>
-                <img class = "image"
+                <img className = "image"
                     src = {props.image}
                     alt = {props.alt}
                     width = "200px"
                 />
             </div>
             <div>
-                <p class = "paragraph">{props.text}</p>
+                <p className = "paragraph">{props.text}</p>
             </div>
         </div>
     );
@@ -57,15 +59,26 @@ function BlockList(){
                 title = "HOW CAN WE ADD ALT-TEXT?"
                 image = {image4}
                 alt = "Hand holding circular Facebook and Instagram logos."
-                text = "Filler here"
+                text = "On many social media platforms, including Instagram, the option to add alt text is hidden from the user. To write alt text for an Instagram post, go through the normal process of creating a new post until the final step before posting. At that point, you want to select advanced settings to reveal the write alt text option. Now, pressing write alt text will open a text box for you to type your alt text description into. The process of adding alt text on Instagram is clarified by the pictures below."
             />
+            <div className = "how-to">
+                <img src={image6} alt="Screenshot of Instagram new post menu. Advanced settings is highlighted with a red box."/>
+                <img src={image7} alt="Screenshot of Instagram new post advanced settings menu. Write alt text is highlighted with a red box."/>
+            </div>
             <Block
                 title = "WHAT SHOULD WE DO MOVING FORWARD?"
                 image = {image5}
                 alt = "A group of 4 adolescent children wearing jeans and warm jackets sit on a bench together in conversation."
-                text = "Filler here"
+                text = "Moving forward, it is important that we raise awareness of the existence of alt text and who it benefits. One common reason that people do not add alt text to their content is that they simply are not aware that such a feature exists. Therefore, it is also important that we reach out to social media companies and push for increased visibility of accessibility features. For example, Instagram could prompt the user asking them to add alt text before they post, rather than hiding the option to add alt text behind a hidden menu."
             />
-
+            <div className = "refs">
+                <h1 className = "ref-title">References</h1>
+                    <a href="https://www.noisyvision.org/2011/04/26/non-sono-cieco-sono-ipovedente-per-quanto-tempo-potr%C3%B2-ancora-vedere/" target="__blank">https://www.noisyvision.org/2011/04/26/non-sono-cieco-sono-ipovedente-per-quanto-tempo-potr%C3%B2-ancora-vedere/</a>
+                    <br/><a href="https://www.reliablesoft.net/alt-text/" target="__blank">https://www.reliablesoft.net/alt-text/</a>
+                    <br/><a href="https://www.searchenginejournal.com/most-people-still-in-2020-arent-aware-facebook-owns-instagram/352758/" target="__blank">https://www.searchenginejournal.com/most-people-still-in-2020-arent-aware-facebook-owns-instagram/352758/</a>
+                    <br/><a href="https://thrivingschools.kaiserpermanente.org/how-to-talk-to-teens-about-drugs-and-alcohol/" target="__blank">https://thrivingschools.kaiserpermanente.org/how-to-talk-to-teens-about-drugs-and-alcohol/</a>
+                    <br/><a href="https://moz.com/learn/seo/alt-text" target="__blank">https://moz.com/learn/seo/alt-text</a><br/><br/>
+            </div>
         </div>
     );
 }
